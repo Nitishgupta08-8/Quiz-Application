@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Application</title>
+
+  <!-- This line connects our CSS file to this page -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Quiz Application</h1>
+  </header>
+
+  <!-- ========== SECTION 1: START ========== -->
+  <section class="box center" id="start">
+    <h2>Test your knowledge</h2>
+    <p>Answer 5 multiple-choice questions and see how much you score.</p>
+    <p>5 questions &bull; 5 minutes &bull; One correct answer for each</p>
+
+    <!-- href="#quiz" scrolls down to the section that has id="quiz" -->
+    <a href="#quiz" class="button">Start Quiz</a>
+  </section>
+
+  <!-- ========== SECTION 2: QUIZ ========== -->
+  <section class="box" id="quiz">
+    <h2>Questions</h2>
+
+    <!-- Timer (only a design for now) -->
+    <div class="timer">Time left: 05:00</div>
+
+    <!-- Question 1 -->
+    <fieldset>
+      <legend>Question 1</legend>
+      <p>What does HTML stand for?</p>
+      <label><input type="radio" name="q1" value="a"> Hyper Text Markup Language</label>
+      <label><input type="radio" name="q1" value="b"> High Text Machine Language</label>
+      <label><input type="radio" name="q1" value="c"> Hyper Tool Multi Language</label>
+      <label><input type="radio" name="q1" value="d"> Home Text Markup Language</label>
+    </fieldset>
+
+    <!-- Question 2 -->
+    <fieldset>
+      <legend>Question 2</legend>
+      <p>Which language is used to style a web page?</p>
+      <label><input type="radio" name="q2" value="a"> HTML</label>
+      <label><input type="radio" name="q2" value="b"> CSS</label>
+      <label><input type="radio" name="q2" value="c"> Python</label>
+      <label><input type="radio" name="q2" value="d"> SQL</label>
+    </fieldset>
+
+    <!-- Question 3 -->
+    <fieldset>
+      <legend>Question 3</legend>
+      <p>Which HTML tag is used for the biggest heading?</p>
+      <label><input type="radio" name="q3" value="a"> &lt;h6&gt;</label>
+      <label><input type="radio" name="q3" value="b"> &lt;head&gt;</label>
+      <label><input type="radio" name="q3" value="c"> &lt;h1&gt;</label>
+      <label><input type="radio" name="q3" value="d"> &lt;heading&gt;</label>
+    </fieldset>
+
+    <!-- Question 4 -->
+    <fieldset>
+      <legend>Question 4</legend>
+      <p>Which CSS property changes the text color?</p>
+      <label><input type="radio" name="q4" value="a"> font-style</label>
+      <label><input type="radio" name="q4" value="b"> text-align</label>
+      <label><input type="radio" name="q4" value="c"> background</label>
+      <label><input type="radio" name="q4" value="d"> color</label>
+    </fieldset>
+
+    <!-- Question 5 -->
+    <fieldset>
+      <legend>Question 5</legend>
+      <p>Which tag is used to create a link?</p>
+      <label><input type="radio" name="q5" value="a"> &lt;a&gt;</label>
+      <label><input type="radio" name="q5" value="b"> &lt;link&gt;</label>
+      <label><input type="radio" name="q5" value="c"> &lt;p&gt;</label>
+      <label><input type="radio" name="q5" value="d"> &lt;img&gt;</label>
+    </fieldset>
+
+    <div class="center">
+      <a href="#result" class="button">Finish Quiz</a>
+    </div>
+  </section>
+
+  <!-- ========== SECTION 3: RESULT ========== -->
+  <section class="box center" id="result">
+    <h2>Quiz Completed</h2>
+    <p>Your score</p>
+
+    <!-- Sample score only. A real score needs JavaScript later -->
+    <p class="score">0 / 5</p>
+
+    <p>Great job! Try again to improve your score.</p>
+
+    <a href="#start" class="button">Try Again</a>
+  </section>
+
+  <footer>
+    <p>Quiz Application - Frontend Project</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,123 @@
+/* ---------- Basic settings ---------- */
+html {
+  scroll-behavior: smooth;   /* smooth scrolling when you click a link */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef3f7;
+  color: #222222;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* ---------- Header ---------- */
+header {
+  background-color: #1f4e79;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+/* ---------- White boxes (one for each section) ---------- */
+.box {
+  background-color: white;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid #cfd8e0;
+}
+
+.center {
+  text-align: center;
+}
+
+h2 {
+  color: #1f4e79;
+  margin-top: 0;
+}
+
+/* ---------- Buttons ---------- */
+.button {
+  display: inline-block;
+  background-color: #e07a1f;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #c4640f;
+}
+
+/* ---------- Timer ---------- */
+.timer {
+  background-color: #fff3e6;
+  border: 1px solid #e07a1f;
+  color: #8a4300;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+/* ---------- Questions ---------- */
+fieldset {
+  border: 1px solid #cfd8e0;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+legend {
+  font-weight: bold;
+  color: #1f4e79;
+  padding: 0 8px;
+}
+
+label {
+  display: block;
+  padding: 8px;
+  margin-top: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+label:hover {
+  background-color: #eef3f7;
+}
+
+/* ---------- Result ---------- */
+.score {
+  font-size: 48px;
+  font-weight: bold;
+  color: #1f4e79;
+  margin: 10px 0;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  text-align: center;
+  color: #666666;
+  padding: 20px;
+  font-size: 14px;
+}
+
+/* ---------- Phones ---------- */
+@media (max-width: 600px) {
+  .box {
+    margin: 15px;
+    padding: 18px;
+  }
+}
